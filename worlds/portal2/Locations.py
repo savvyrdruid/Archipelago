@@ -247,7 +247,7 @@ speedrun_logic_table: dict[str, list[str]] = {
     # Chapter 4
     "Column Blocker Completion": [portal_gun_2],
     "Laser Chaining Completion": [reflection_cube, laser, laser_relays],
-    "Triple Laser Completion": [reflection_cube, portal_gun_2],
+    "Triple Laser Completion": [reflection_cube, laser, laser_catcher],
     "Jailbreak Completion": [portal_gun_2, button, weighted_cube],
     "Escape Completion": [],
     # Chapter 5
@@ -271,7 +271,7 @@ speedrun_logic_table: dict[str, list[str]] = {
     "Funnel Catch Completion": [portal_gun_2],
     "Stop The Box Completion": [floor_button, portal_gun_2],
     "Laser Catapult Completion": [portal_gun_2],
-    "Laser Platform Completion": [portal_gun_2, funnel],
+    "Laser Platform Completion": [portal_gun_2, funnel, laser, laser_catcher, button, reflection_cube],
     "Propulsion Catch Completion": [floor_button, funnel],
     "Repulsion Polarity Completion": [turrets, button, blue_gel],
     # Chapter 9
